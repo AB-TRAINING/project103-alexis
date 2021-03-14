@@ -20,7 +20,7 @@ html {
 
 .calendar {
     width: 45rem;
-    height: 52rem;
+    height: 46rem;
     background-color: #222227;
     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
 
@@ -28,7 +28,7 @@ html {
 
 .month  {
     width: 100%;
-    height: 12rem;
+    height: 10rem;
     background-color: #008699;
     display: flex;
     justify-content: space-between;
