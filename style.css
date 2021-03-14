@@ -17,8 +17,11 @@ body{
     text-decoration: none;
     font-size: 1.1rem;
 }
-/*NAVIGATION*/
 
+/*NAVIGATION*/
+.navbar-brand img{
+    height: 3rem;
+}
 
 /*CAROUSEL*/
 

@@ -22,7 +22,7 @@
 	<div class="top-bar">
 		<div class="container">
 			<div class="col-12 text-right">
-				<p><a href="www.facebook.com/anycolouryouliek"> Reach me here!!!</a></p>
+				<p><a href="https://www.facebook.com/AnyColourYouLiek/" target="_blank">Reach me here!!!</a></p>
 			</div>
 		</div>
 	</div>
@@ -33,7 +33,26 @@
 
 	<!-- Navigation -->
     <nav class="navbar bg-light navbar-light navbar-expand-lg">
-        <div class="container"></div>
+        <div class="container">
+		
+			<a href="index.php" class="navbar-brand"><img src="assets/img/page-logo.png" alt="page logo" title="logo"></a>
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+				</ul>			
+			</div>
+
+		</div>
     </nav>
 	<!-- End Navigation -->
 
