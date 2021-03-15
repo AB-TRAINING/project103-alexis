@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALENDAR</title>
     
-	<!-- Bootstrap 4.5 CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
     <!--Calendar Core CSS-->
     <link rel="stylesheet" href="calendarstyle.css">
     
@@ -20,19 +17,24 @@
 
 <body>
 
-    <div class="top-bar">
-		<div class="container">
-			<div class="col-12 text-right"></div>
-				<p><a href="/">Home</a></p>
-			</div>
-		</div>
-	</div>
+<!--    <div class="top-bar">
+            <div class="container">
+                <div class="col-12 text-right"></div>
+                    <button><a href="/">Home</a></button>
+                </div>
+            </div>
+        </div> -->
 
     <div class="container">
         <div class="calendar">  
-        
+
             <!-- M O N T H S -->            
             <div class="month">
+
+                <div class="button">
+                    <h3><button><a href="/"><i class="fas fa-home"></i></a></button></h3>
+                </div>
+                
                 <i class="fas fa-angle-left prev"></i>
                     <div class="date">
                         <h1>March</h1>
@@ -105,8 +107,6 @@
 
 	<!-- jQuery -->
 	<script src="assets/js/jquery-3.5.1.min.js"></script>
-	<!-- Bootstrap 4.5 JS -->
-	<script src="assets/js/bootstrap.min.js"></script>
 	<!-- Popper JS -->
 	<script src="assets/js/popper.min.js"></script>
     <!-- Calendar -->

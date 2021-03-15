@@ -8,20 +8,9 @@ html {
     font-size: 62%;
 }
 
-.top-bar {
-    background: #008699;
-    height: 5rem;
-    padding: 5rem 0;
-}
-.top-bar a {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
 .container {
     width: 100%;
-    height: 56.2rem;
+    height: 100vh;
     background-color: #12121f;
     color: whitesmoke;
     display: flex;
@@ -31,11 +20,18 @@ html {
 
 .calendar {
     width: 45rem;
-    height: 46rem;
+    height: 50rem;
     background-color: #222227;
     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
-
 }
+
+.button i {
+    background-color: #008699;
+    border: 1px solid #008699;
+    border-radius: 1px;
+    color: whitesmoke;
+}
+
 
 .month  {
     width: 100%;
@@ -45,7 +41,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    text-align: center;
+    text-align: right;
     text-shadow: 0 0.2rem .4rem   rgba(0, 0, 0, 0.4);
 }
 .month i {
