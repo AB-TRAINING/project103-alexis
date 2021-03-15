@@ -24,8 +24,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<!-- End Top Bar -->
 
 
@@ -68,9 +66,8 @@
 							<div class="col-7 bg-custom d-none d-lg-block py-3 px-0">
 								<h1>Sabo Project 103</h1>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<h3 class="pb-3">Practice/Test Website Design</h3>
-								<a href="#" class="btn btn-danger btn-lg mr-2">View Demo</a>
-								<a href="#" class="btn btn-primary btn-lg ml-2">Start Now!</a>
+								<h3 class="pb-3">Calendar</h3>
+								<a href="page content/calendar/calendar.php" class="btn btn-primary btn-lg mr-2">View</a>
 							</div>
 						</div>
 					</div>
@@ -85,9 +82,8 @@
 							<div class="col-7 bg-custom d-none d-lg-block py-3 px-0">
 								<h1>Sabo Test Web</h1>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<h3 class="pb-3">Practice/Test Website Design</h3>
-								<a href="#" class="btn btn-danger btn-lg mr-2">View Demo</a>
-								<a href="#" class="btn btn-primary btn-lg ml-2">Start Now!</a>
+								<h3 class="pb-3">Calculator</h3>
+								<a href="#" class="btn btn-primary btn-lg mr-2">View</a>
 							</div>
 						</div>
 					</div>
@@ -95,9 +91,7 @@
 			</div>
 
 		</div>
-	
 		<!-- End Carousel Content -->
-
 
 		<!-- Previous & Next Buttons -->
 		<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
@@ -139,9 +133,9 @@
 			</div>
 
 			<div class="col-md-4 my-4">
-				<img src="assets/img/row-2-2.jpg" alt="" class="w-100">
+				<img src="assets/img/row-3.jpg" alt="" class="w-100">
 				<h4 class="my-4">"ABOUT USER"</h4>
-				<P>Short intro of user</P>
+				<P>Short introduction about user. Maikling pagpapakilala ng sarili.</P>
 				<a href="#" class="btn btn-outline-dark btn-md">View</a>
 			</div>
 
