@@ -83,7 +83,7 @@
 								<h1>Sabo Test Web</h1>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<h3 class="pb-3">Calculator</h3>
-								<a href="#" class="btn btn-primary btn-lg mr-2">View</a>
+								<a href="page content/calculator/calculator.php" class="btn btn-primary btn-lg mr-2">View</a>
 							</div>
 						</div>
 					</div>
@@ -129,14 +129,14 @@
 				<img src="assets/img/row-2-2.jpg" alt="" class="w-100">
 				<h4 class="my-4">"CALCULATOR. MÁY TÍNH"</h4>
 				<P>電卓, калькулятор, lommeregner, taschenrechner, kalkulator, 计算器, cyfrifiannell</P>
-				<a href="#" class="btn btn-outline-dark btn-md">View</a>
+				<a href="page content/calculator/calculator.php" class="btn btn-outline-dark btn-md">View</a>
 			</div>
 
 			<div class="col-md-4 my-4">
 				<img src="assets/img/row-3.jpg" alt="" class="w-100">
 				<h4 class="my-4">"ABOUT USER"</h4>
 				<P>Short introduction about user. Maikling pagpapakilala ng sarili.</P>
-				<a href="#" class="btn btn-outline-dark btn-md">View</a>
+				<a href="page content/sabo.php" class="btn btn-outline-dark btn-md">View</a>
 			</div>
 
 		</div>
