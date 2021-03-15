@@ -1,146 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Project 103</title>
-    <link rel="shortcut icon" href="https://i.pinimg.com/originals/32/b3/48/32b348b14d1c35ad62c1183fe7ae08a4.jpg" style="width: 80px; height: 80px; ">
-    
-	<!-- Bootstrap 4.5 CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<!-- Style CSS -->
-	<link rel="stylesheet" href="style.css">
-	<!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet"> 
+	<?php include('./partials/header.php') ?>
 </head>
 
 <body>
-	<!-- Top Bar -->
-	<div class="top-bar">
-		<div class="container">
-			<div class="col-12 text-right">
-				<p><a href="https://www.facebook.com/AnyColourYouLiek/" target="_blank">Reach me here!!!</a></p>
-			</div>
-		</div>
-	</div>
-	<!-- End Top Bar -->
+	<?php include('./partials/topbar.php') ?>
 
+	<?php include('./partials/navbar.php') ?>
 
-	<!-- Navigation -->
-    <nav class="navbar bg-light navbar-light navbar-expand-lg">
-        <div class="container">
-		
-			<a href="index.php" class="navbar-brand"><img src="assets/img/page-logo.png" alt="page logo" title="logo"></a>
-		
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+	<?php include('./partials/imgcarsl.php') ?>
 
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
-					<li class="nav-item"><a href="page content/calendar/calendar.php" class="nav-link">Calendar</a></li>
-					<li class="nav-item"><a href="page content/calculator/calculator.php" class="nav-link">Calculator</a></li>
-					<li class="nav-item"><a href="page content/sabo.php" class="nav-link">About</a></li>
-				</ul>			
-			</div>
-
-		</div>
-    </nav>
-	<!-- End Navigation -->
-
-
-	<!-- Image Carousel -->
-	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-
-		<!-- Carousel Content -->
-		<div class="carousel-inner">
-
-			<div class="carousel-item active">
-				<img src="assets/img/carousel-1.png" alt="" class="w-100">
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-7 bg-custom d-none d-lg-block py-3 px-0">
-								<h1>Sabo Project 103</h1>
-								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<h3 class="pb-3">Calendar</h3>
-								<a href="page content/calendar/calendar.php" class="btn btn-primary btn-lg mr-2">View</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="carousel-item">
-				<img src="assets/img/carousel-2.jpg" alt="" class="w-100">
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-7 bg-custom d-none d-lg-block py-3 px-0">
-								<h1>Sabo Test Web</h1>
-								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<h3 class="pb-3">Calculator</h3>
-								<a href="page content/calculator/calculator.php" class="btn btn-primary btn-lg mr-2">View</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<!-- End Carousel Content -->
-
-		<!-- Previous & Next Buttons -->
-		<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
-			<span class="fas fa-chevron-circle-left fa-2x"></span>
-		</a>
-
-		<a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
-			<span class="fas fa-chevron-circle-right fa-2x"></span>
-		</a>
-		<!-- End Previous & Next Buttons -->
-
-	</div>
-	<!-- End Image Carousel -->
-
-
-	<!-- Main Page Heading -->
-	<div class="col-12 text-center mt-4">
-		<h1 class="text-dark pt-4">This is Just a Practice Web</h1>
-		<div class="border-top border-primary w-25 mx-auto my-3"></div>
-		<p class="lead">This is just a practice web. This is just a practice web. This is just a practice web. This is just a practice web.</p>
-
-	</div>
-
-	<!-- Three Column Section -->
-	<div class="container">
-		<div class="row my-5">
-			<div class="col-md-4 my-4">
-				<img src="assets/img/row-1-1.png" alt="" class="w-100">
-				<h4 class="my-4">"CALENDAR. KALENDARYO"</h4>
-				<P>Calendario, تقويم, calendrier, kalender, календарь, kiaj, 달력, カレンダー, lịch</P>
-				<a href="page content/calendar/calendar.php" class="btn btn-outline-dark btn-md">View</a>
-			</div>
-
-			<div class="col-md-4 my-4">
-				<img src="assets/img/row-2-2.jpg" alt="" class="w-100">
-				<h4 class="my-4">"CALCULATOR. MÁY TÍNH"</h4>
-				<P>電卓, калькулятор, lommeregner, taschenrechner, kalkulator, 计算器, cyfrifiannell</P>
-				<a href="page content/calculator/calculator.php" class="btn btn-outline-dark btn-md">View</a>
-			</div>
-
-			<div class="col-md-4 my-4">
-				<img src="assets/img/row-3.jpg" alt="" class="w-100">
-				<h4 class="my-4">"ABOUT USER"</h4>
-				<P>Short introduction about user. Maikling pagpapakilala ng sarili.</P>
-				<a href="page content/sabo.php" class="btn btn-outline-dark btn-md">View</a>
-			</div>
-
-		</div>
-	</div>
-	<!-- End Three Column Section -->
+	<?php include('./partials/pghdcolumnsec.php') ?>
 
 
 	<!-- Script Source Files -->
