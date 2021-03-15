@@ -40,13 +40,67 @@ body{
 .nav-link:hover {
     color: #4981b3!important;
 }
+
 /*CAROUSEL*/
-
+#carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+.carousel-inner {
+    max-height: 38rem!important;
+}
 /**CHANGE CAROUSEL TRANSITION SPEED*/
-
+.carousel-item-prev,
+.carousel-item-next,
+.carouse-item.active {
+    transition: transform 1.2s ease;
+}
 /**CAROUSEL CONTENT*/
-
-
+.carousel-caption {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-30%);
+    text-transform: uppercase;
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+    border-radius: 1rem;
+}
+.carousel-caption h1 {
+    font-size: 3.4rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.border-primary {
+    border-top: .2rem solid #4981b3!important;
+}
+.carousel-caption h3 {
+    font-size: 1.9rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+}
+.btn-lg {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-width: medium;
+}
+.btn-danger {
+    background-color: #ac2615;
+    border: .1rem solid #ac2615;
+}
+.btn-primary {
+    background-color: #4981b3;
+    border: .1rem solid #4981b3;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0085cd!important;
+    border: .1rem solid #0085cd!important;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #b80f0a!important;
+    border: .1rem solid #b80f0a!important;
+}
 /*FIXED BG IMG*/
 
 /**EMOJI NAVI BAR*/
