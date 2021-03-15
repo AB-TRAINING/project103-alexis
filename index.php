@@ -37,13 +37,12 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
-					<li class="nav-item"><a href="" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+					<li class="nav-item"><a href="page content/calendar/calendar.php" class="nav-link">Calendar</a></li>
+					<li class="nav-item"><a href="page content/calculator/calculator.php" class="nav-link">Calculator</a></li>
+					<li class="nav-item"><a href="page content/sabo.php" class="nav-link">About</a></li>
 				</ul>			
 			</div>
 
@@ -141,44 +140,8 @@
 
 		</div>
 	</div>
-
 	<!-- End Three Column Section -->
 
-
-	<!-- Emoji Navbar First -->
-
-
-	<!-- Start Fixed Background IMG -->
-
-	<!-- End Fixed Background IMG -->
- 
-	
-	<!-- Emoji Navbar Second -->
-
-
-	<!-- Modal Popup -->
-
-		
-	<!-- Start Two Column Section -->
-
-	<!-- End Two Column Section -->
-
-
-	<!-- Start Jumbotron -->
-
-	<!-- End Jumbotron -->
-
-
-	<!-- Start Footer -->
-
-	<!-- End Footer -->
-
-
-	<!-- Start Socket -->
-
-	<!-- End Socket -->
-
-<div class="container my-5"></div>
 
 	<!-- Script Source Files -->
 
