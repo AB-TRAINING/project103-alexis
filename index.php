@@ -135,7 +135,14 @@
 				<img src="assets/img/row-2-2.jpg" alt="" class="w-100">
 				<h4 class="my-4">"CALCULATOR. MÁY TÍNH"</h4>
 				<P>電卓, калькулятор, lommeregner, taschenrechner, kalkulator, 计算器, cyfrifiannell</P>
-				<a href="page content/calculator/calculator.php" class="btn btn-outline-dark btn-md">View</a>
+				<a href="#" class="btn btn-outline-dark btn-md">View</a>
+			</div>
+
+			<div class="col-md-4 my-4">
+				<img src="assets/img/row-2-2.jpg" alt="" class="w-100">
+				<h4 class="my-4">"ABOUT USER"</h4>
+				<P>Short intro of user</P>
+				<a href="#" class="btn btn-outline-dark btn-md">View</a>
 			</div>
 
 		</div>

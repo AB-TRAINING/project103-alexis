@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALENDAR</title>
     
+	<!-- Bootstrap 4.5 CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
     <!--Calendar Core CSS-->
     <link rel="stylesheet" href="calendarstyle.css">
     
@@ -14,7 +17,17 @@
     
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;500&display=swap" rel="stylesheet"></head>
+
 <body>
+
+    <div class="top-bar">
+		<div class="container">
+			<div class="col-12 text-right"></div>
+				<p><a href="/">Home</a></p>
+			</div>
+		</div>
+	</div>
+
     <div class="container">
         <div class="calendar">  
         
@@ -88,6 +101,19 @@
     </div>
 
 
+	<!-- Script Source Files -->
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<!-- Bootstrap 4.5 JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+    <!-- Calendar -->
     <script src="calendar.js"></script>
+
+	<!-- End Script Source Files -->
+
+
 </body>
 </html>
