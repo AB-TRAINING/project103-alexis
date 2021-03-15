@@ -17,14 +17,6 @@
 
 <body>
 
-<!--    <div class="top-bar">
-            <div class="container">
-                <div class="col-12 text-right"></div>
-                    <button><a href="/">Home</a></button>
-                </div>
-            </div>
-        </div> -->
-
     <div class="container">
         <div class="calendar">  
 
