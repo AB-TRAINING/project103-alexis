@@ -1,111 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CALENDAR</title>
-    
+
     <!--Calendar Core CSS-->
-    <link rel="stylesheet" href="calendarstyle.css">
-    
+    <link rel="stylesheet" href="calstyle.css" />
+
     <!--Font Awesome CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;500&display=swap" rel="stylesheet"></head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-    <div class="container">
-        <div class="calendar">  
-
-            <!-- M O N T H S -->            
-            <div class="month">
-
-                <div class="button">
-                    <h3><button><a href="/"><i class="fas fa-home"></i></a></button></h3>
-                </div>
-                
-                <i class="fas fa-angle-left prev"></i>
-                    <div class="date">
-                        <h1>March</h1>
-                        <p>Sun Mar 14, 2021</p>
-                    </div>
-                <i class="fas fa-angle-right next"></i>
-            </div>
-
-            <!-- W E E K S -->
-            <div class="weekdays">
-                <div>Sun</div>
-                <div>Mon</div>
-                <div>Tue</div>
-                <div>Wed</div>
-                <div>Thu</div>
-                <div>Fri</div>
-                <div>Sat</div>
-            </div>
-
-            <!-- D A Y S -->
-            <div class="days">
-                <div class="prev-date">11</div>
-                <div class="prev-date">12</div>
-                <div class="prev-date">13</div>
-                <div class="prev-date">14</div>
-                <div class="prev-date">15</div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                <div>7</div>
-                <div>8</div>
-                <div>9</div>
-                <div>10</div>
-                <div>11</div>
-                <div>12</div>
-                <div>13</div>
-                <div class="today">14</div>
-                <div>15</div>
-                <div>16</div>
-                <div>17</div>
-                <div>18</div>
-                <div>19</div>
-                <div>20</div>
-                <div>21</div>
-                <div>22</div>
-                <div>23</div>
-                <div>24</div>
-                <div>25</div>
-                <div>26</div>
-                <div>27</div>
-                <div>28</div>
-                <div>29</div>
-                <div>30</div>
-                <div>31</div>
-                <div class="next-date">1</div>
-                <div class="next-date">2</div>
-                <div class="next-date">3</div>
-                <div class="next-date">4</div>
-                <div class="next-date">5</div>
-                <div class="next-date">6</div>
-            </div>
-        </div>
+  <body>
+    <!-- N A V B A R -->
+    <div class="container-sideb">
+          <ul>
+            <p><a class="home" href="/index.html">HOME</a></p>
+            <p><a class="cal" href="/index.html">CALCULATOR</a></p>
+            <p><a class="about" href="/index.html">ABOUT</a></p>
+          </ul>
     </div>
 
+    <div class="container-cal">
+      <div class="calendar">
+        <!-- M O N T H S -->
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">
+            <h1>March</h1>
+            <p>Sun Mar 14, 2021</p>
+          </div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
 
-	<!-- Script Source Files -->
+        <!-- W E E K S -->
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
 
-	<!-- jQuery -->
-	<script src="assets/js/jquery-3.5.1.min.js"></script>
-	<!-- Popper JS -->
-	<script src="assets/js/popper.min.js"></script>
+        <!-- D A Y S -->
+        <div class="days">
+          <div class="prev-date">11</div>
+          <div class="prev-date">12</div>
+          <div class="prev-date">13</div>
+          <div class="prev-date">14</div>
+          <div class="prev-date">15</div>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+          <div>12</div>
+          <div>13</div>
+          <div class="today">14</div>
+          <div>15</div>
+          <div>16</div>
+          <div>17</div>
+          <div>18</div>
+          <div>19</div>
+          <div>20</div>
+          <div>21</div>
+          <div>22</div>
+          <div>23</div>
+          <div>24</div>
+          <div>25</div>
+          <div>26</div>
+          <div>27</div>
+          <div>28</div>
+          <div>29</div>
+          <div>30</div>
+          <div>31</div>
+          <div class="next-date">1</div>
+          <div class="next-date">2</div>
+          <div class="next-date">3</div>
+          <div class="next-date">4</div>
+          <div class="next-date">5</div>
+          <div class="next-date">6</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Source Files -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- Popper JS -->
+    <script src="assets/js/popper.min.js"></script>
     <!-- Calendar -->
     <script src="calendar.js"></script>
 
-	<!-- End Script Source Files -->
-
-
-</body>
+    <!-- End Script Source Files -->
+  </body>
 </html>
