@@ -26,9 +26,9 @@
     <!-- N A V B A R -->
     <div class="container-sideb">
           <ul>
-            <p><a class="home" href="/index.html">HOME</a></p>
-            <p><a class="cal" href="/index.html">CALCULATOR</a></p>
-            <p><a class="about" href="/index.html">ABOUT</a></p>
+            <p><a class="home" href="../../index.php">HOME</a></p>
+            <p><a class="cal" href="../calculator/calculator.php">CALCULATOR</a></p>
+            <p><a class="about" href="../sabo.php">ABOUT</a></p>
           </ul>
     </div>
 
